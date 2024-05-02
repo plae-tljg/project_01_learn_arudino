@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://plae-tljg.github.io/my-app",
+  "homepage": "https://plae-tljg.github.io/project_01_learn_arduino",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -83,7 +83,7 @@ export default function Record() {
   // This following section will display the form that takes the input from the user.
   return (
     <div>
-      <h3 className="text-lg font-semibold p-4">Create/Update Employee Record</h3>
+      <h3 className="text-lg font-semibold p-4">Homepage</h3>
     </div>
   );
 }

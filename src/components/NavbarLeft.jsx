@@ -1,22 +1,27 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
-function navBar_left() {
+function NavbarLeft() {
+
   return (
-    <div className="bg-gray-100">
-        <aside className="bg-gray-200 h-screen w-1/3 px-4 py-8">
-          <h2 className="text-lg font-semibold mb-4">Left Panel</h2>
-          <ul className="space-y-2">
+    <div class="bg-gray-100 w-1/6 max-h-full overflow-y-auto">
+        <aside class="shadow bg-gray-390 h-screen py-8">
+          <h2 class="px-2 shadow bg-green-100 text-lg font-semibold mb-4 w-full">Lesson</h2>
+          <ul class="shadow space-y-2">
             <li>
-              <a href="#">Link 1</a>
+              <Link to="/lesson/01" class="px-2 shadow">Lesson 1</Link>
             </li>
             <li>
-              <a href="#">Link 2</a>
+              <Link to="/lesson/02" class="px-2 shadow">Lesson 2</Link>
             </li>
             <li>
-              <a href="#">Link 3</a>
+              <Link to="/lesson/03" class="px-2 shadow">Lesson 3</Link>
             </li>
             <li>
-              <a href="#">Link 4</a>
+              <Link to="/lesson/04" class="px-2 shadow">Lesson 4</Link>
+            </li>
+            <li>
+              <Link to="/lesson/05" class="px-2 shadow">Lesson 5</Link>
             </li>
           </ul>
         </aside>
@@ -24,4 +29,4 @@ function navBar_left() {
   );
 }
 
-export default navBar_left;
+export default NavbarLeft;
